@@ -1,0 +1,125 @@
+@import "./base.css";
+@import "@fontsource/dm-sans";
+@import "@fontsource/allerta-stencil";
+@import "../../node_modules/swiper/swiper.css";
+@import "../../node_modules/swiper/modules/pagination.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "DM Sans", sans-serif;
+  font-weight: var(--font-size-body-medium);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.heading1 {
+  font-weight: var(--font-weight-heading1);
+  font-size: var(--font-size-heading1);
+}
+
+.heading2 {
+  font-weight: var(--font-weight-heading2);
+  font-size: var(--font-size-heading2);
+  line-height: var(--line-height-heading2);
+}
+
+.heading3 {
+  font-weight: var(--font-weight-heading3);
+  font-size: var(--font-size-heading3);
+  line-height: var(--line-height-heading3);
+}
+
+.heading4 {
+  font-weight: var(--font-weight-heading4);
+  font-size: var(--font-size-heading4);
+  line-height: var(--line-height-heading4);
+}
+
+.heading5 {
+  font-weight: var(--font-weight-heading5);
+  font-size: var(--font-size-heading5);
+  line-height: var(--line-height-heading5);
+}
+
+.body-large {
+  font-weight: var(--font-weight-body-large);
+  font-size: var(--font-size-body-large);
+}
+
+.body-medium {
+  font-weight: var(--font-weight-body-medium);
+  font-size: var(--font-size-body-medium);
+}
+
+.body-small {
+  font-weight: var(--font-weight-body-small);
+  font-size: var(--font-size-body-small);
+  line-height: var(--line-height-body-small);
+}
+
+a {
+  text-decoration: none;
+  user-select: none;
+}
+
+button {
+  user-select: none;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  color: inherit;
+}
+
+.v-badge {
+  font-family: "Allerta Stencil", sans-serif;
+}
+
+.swiper-pagination-bullet {
+  background: var(--color-primary-white);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--color-primary-white);
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.swiper-pagination-bullets {
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-links svg {
+  width: 24px;
+  height: 24px;
+  display: block;
+  color: var(--color-primary-black);
+  opacity: 1;
+}
+
+.wrapper-links a:nth-child(2) svg {
+  width: 32px;
+  height: 32px;
+}
+
+.favorite a:nth-child(3) svg {
+  color: var(--color-error);
+}

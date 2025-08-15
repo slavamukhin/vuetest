@@ -1,0 +1,61 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  /* MAIN COLORS */
+  --color-primary-accent: #a18a68;
+  --color-primary-white: #ffffff;
+  --color-primary-black: #000000;
+  /* NEUTRAL COLORS */
+  --color-secondary-dark-gray: #707070;
+  --color-secondary-gray: #d8d8d8;
+  --color-secondary-light-gray: #efefef;
+  /* SERVICE COLORS */
+  --color-error: #d82700;
+  /* Paragraph-spacing */
+  --paragraph-spacing-10: 10px;
+  /* Line-Height */
+  --line-height-35: 35px;
+  --line-height-26: 26px;
+  --line-height-20: 20px;
+  --line-height-27: 27px;
+  /* Font-Size */
+  --font-size-33: 33px;
+  --font-size-26: 26px;
+  --font-size-20: 20px;
+  --font-size-16: 16px;
+  --font-size-14: 14px;
+  --font-size-12: 12px;
+  /* Font-Weight */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+}
+/* semantic color variables for this project */
+
+:root {
+  --paragraph-spacing-body-saml: var(--paragraph-spacing-10);
+  --paragraph-spacing-heading5: var(--paragraph-spacing-10);
+
+  --line-height-heading2: var(--line-height-35);
+  --line-height-heading3: var(--line-height-26);
+  --line-height-heading4: var(--line-height-20);
+  --line-height-heading5: var(--line-height-27);
+  --line-height-body-small: var(--line-height-20);
+
+  --font-size-heading1: var(--font-size-33);
+  --font-size-heading2: var(--font-size-26);
+  --font-size-heading3: var(--font-size-20);
+  --font-size-heading4: var(--font-size-20);
+  --font-size-heading5: var(--font-size-16);
+  --font-size-body-large: var(--font-size-16);
+  --font-size-body-medium: var(--font-size-14);
+  --font-size-body-small: var(--font-size-12);
+
+  --font-weight-heading1: var(--font-weight-medium);
+  --font-weight-heading2: var(--font-weight-regular);
+  --font-weight-heading3: var(--font-weight-regular);
+  --font-weight-heading4: var(--font-weight-medium);
+  --font-weight-heading5: var(--font-weight-regular);
+  --font-weight-body-large: var(--font-weight-bold);
+  --font-weight-body-medium: var(--font-weight-regular);
+  --font-weight-body-small: var(--font-weight-regular);
+}
