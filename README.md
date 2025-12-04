@@ -1,4 +1,6 @@
-# [DEMO](https://slavamukhin.github.io/vuetest)
+# System design (vitrina and basket)
+
+## [DEMO](https://slavamukhin.github.io/vuetest)
 
 This template should help get you started developing with Vue 3 in Vite.
 
