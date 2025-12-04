@@ -1,0 +1,26 @@
+import './assets/main.css';
+import { createApp } from 'vue';
+import { createPinia } from 'pinia';
+import piniaPersist from 'pinia-plugin-persistedstate';
+import App from './App.vue';
+import router from './router';
+import badge from '@/directives/v-badge';
+import promo from '@/directives/v-promo';
+import cardAction from '@/directives/v-card-action';
+import sell from '@/directives/v-sell';
+import cross from '@/directives/v-cross';
+import { debounce, throttle } from '@/directives/rateLimit';
+
+const app = createApp(App);
+const pinia = createPinia();
+pinia.use(piniaPersist);
+app.use(pinia);
+app.use(router);
+app.directive('badge', badge);
+app.directive('promo', promo);
+app.directive('card-action', cardAction);
+app.directive('sell', sell);
+app.directive('cross', cross);
+app.directive('debounce', debounce);
+app.directive('throttle', throttle);
+app.mount('#app');
